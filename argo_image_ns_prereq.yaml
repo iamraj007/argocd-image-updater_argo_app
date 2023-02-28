@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocd-image-updater
+  labels:
+    azure-key-vault-env-injection: enabled
+#  finalizers:
+#    - finalizer.extensions/v1beta1
